@@ -9,4 +9,9 @@ public class ProcessDigestiveSystem implements IProcessICD{
 		return Arrays.asList("K300","K301","K302","K303","K304");
 	}
 
+	public void ProcessRecord() {
+		System.out.println("process ICD code for digestive system disorder");
+		
+	}
+
 }

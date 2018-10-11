@@ -5,4 +5,6 @@ import java.util.List;
 public interface IProcessICD {
 
 	public List<String> IcdCodes();
+	
+	public void ProcessRecord();
 }

@@ -14,4 +14,9 @@ public class ProcessCirculatorySystem implements IProcessICD{
 		return Arrays.asList("I100","I101","I102","I103","I104");
 	}
 
+	public void ProcessRecord() {
+		System.out.println("process ICD code for circulatory system disorder");
+		
+	}
+
 }

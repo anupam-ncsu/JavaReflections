@@ -9,4 +9,9 @@ public class ProcessRespiratorySystems implements IProcessICD{
 		return Arrays.asList("J200","J201","J202","J203","J204");
 	}
 
+	public void ProcessRecord() {
+		System.out.println("process ICD code for respiratory system disorder");
+		
+	}
+
 }
